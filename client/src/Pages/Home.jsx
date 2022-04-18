@@ -8,6 +8,7 @@ import Testimonial from '../Section/Testimonial';
 import Button from '../Components/Button.jsx';
 import Skill from '../Section/Skill.jsx';
 import Blog from '../Section/Blog.jsx';
+import Resources from '../Section/Resources.jsx';
 import Footer from '../Section/Footer.jsx';
 import Img_shape from '../assets/images/shape.svg';
 import Img_shape_rotate from '../assets/images/shape-rotate.svg';
@@ -95,10 +96,10 @@ function Home(props) {
                 />
             </section>
             <section class="blog-section">
-                <Blog/>
+                <Blog />
             </section>
 
-            <section className="portfolio-information-section">
+            <section className="resources-information-section">
                 <Information
                     title='Specialize and never stop learning.'
                     bgtitle='CODE'
@@ -110,8 +111,12 @@ function Home(props) {
                 />
             </section>
 
+            <section class="resources-section">
+                <Resources/>
+            </section>
+
             <section class="footer-section">
-                <Footer/>
+                <Footer />
             </section>
 
         </>

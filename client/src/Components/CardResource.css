@@ -1,0 +1,37 @@
+.card-resource {
+    border-radius: 8px;
+    border: 1px solid rgba(92, 91, 91, var(--tw-border-opacity));
+    --tw-border-opacity: .3;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    min-height: 90px;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) 1%, rgba(78, 78, 78, 0.50) 100%, rgba(78, 78, 78, 0.1) 10%);
+    padding-left: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.card-resource::after {
+    content: '';
+    border-radius: 8px;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    padding: 2px;
+    color: #f9f9f9;
+    display: block;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    transition: opacity .1s ease-out;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .2), rgba(255, 255, 255, .4));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+}
+
+.card-resource:hover::after {
+    opacity: 1;
+}

@@ -8,22 +8,46 @@
 
 .portfolio-information-section {
     padding-top: 120px;
-    background: radial-gradient(farthest-corner at top left, rgba(0, 194, 255, 0.3), transparent 30%);
+    background: radial-gradient(farthest-corner at top left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom right, rgba(255, 50, 50, 0.3), transparent 30%);
+}
+
+.skill-information-section {
+    background: radial-gradient(farthest-corner at bottom left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at top right, rgba(255, 50, 50, 0.3), transparent 30%);
+}
+
+.blog-information-section {
+    background: radial-gradient(farthest-corner at bottom left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at top right, rgba(255, 50, 50, 0.3), transparent 30%);
+}
+
+.resources-information-section {
+    padding-top: 120px;
+    background: radial-gradient(farthest-corner at bottom left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at top right, rgba(255, 50, 50, 0.3), transparent 30%);
+}
+
+.blog-section {
+    background: radial-gradient(farthest-corner at top left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom right, rgba(255, 50, 50, 0.3), transparent 30%);
 }
 
 .skill-section {
     padding-bottom: 120px;
+    background: radial-gradient(farthest-corner at top left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom right, rgba(255, 50, 50, 0.3), transparent 30%);
 }
 
 .portfolio-section-right {
-    background: radial-gradient(farthest-corner at bottom right, rgba(255, 50, 50, 0.3), transparent 30%);
+    background: radial-gradient(farthest-corner at top right, rgba(255, 50, 50, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom left, rgba(0, 194, 255, 0.3), transparent 30%);
 }
 
 .testimonial-section {
     overflow: hidden;
     padding-top: 120px;
     padding-bottom: 120px;
-    background: radial-gradient(farthest-corner at top left, rgba(0, 194, 255, 0.2), transparent 30%), radial-gradient(farthest-corner at bottom right, rgba(255, 50, 50, 0.4), transparent 30%);
+    background: radial-gradient(farthest-corner at top left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom right, rgba(255, 50, 50, 0.4), transparent 30%);
+
+}
+
+.resources-section {
+    padding-bottom: 120px;
+    background: radial-gradient(farthest-corner at top left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom right, rgba(255, 50, 50, 0.3), transparent 30%);
 }
 
 
@@ -67,6 +91,10 @@
         background: radial-gradient(farthest-corner at bottom center, rgba(255, 50, 50, 0.3), transparent 40%), radial-gradient(farthest-corner at top center, rgba(0, 194, 255, 0.1), transparent 50%);
     }
 
+    .resources-information-section {
+        background: radial-gradient(farthest-corner at top left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom center, rgba(255, 50, 50, 0.3), transparent 40%);
+    }
+
     .blog-section {
         padding-bottom: 100px;
         background: radial-gradient(farthest-corner at top center, rgba(255, 50, 50, 0.3), transparent 40%), radial-gradient(farthest-corner at bottom left, rgba(0, 194, 255, 0.3), transparent 30%);
@@ -77,6 +105,10 @@
     }
 
     .portfolio-section-right {
+        background: radial-gradient(farthest-corner at top center, rgba(255, 50, 50, 0.3), transparent 40%), radial-gradient(farthest-corner at bottom left, rgba(0, 194, 255, 0.3), transparent 30%);
+    }
+
+    .resources-section {
         background: radial-gradient(farthest-corner at top center, rgba(255, 50, 50, 0.3), transparent 40%), radial-gradient(farthest-corner at bottom left, rgba(0, 194, 255, 0.2), transparent 30%);
     }
 

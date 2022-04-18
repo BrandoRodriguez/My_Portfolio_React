@@ -12,7 +12,7 @@ function CardBlog(props) {
             <div className="single-blog">
                 <div>
                     <a href="/" className="featured-img">
-                        <img loading="lazy" src={img_blog} alt="Blog_Card_Img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                        <img src={img_blog} alt="Blog_Card_Img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy"/>
                     </a>
                     <div className="post-title">
                         <h3><a href="/">Our goal is making your working process faster and easier. </a></h3>
@@ -20,14 +20,14 @@ function CardBlog(props) {
                 </div>
                 <div className="like-comment">
                     <a href="/" className="read-more ">
-                        <img src={img_arrow} alt="Arrow - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                        <img src={img_arrow} alt="Arrow - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy"/>
                     </a>
                     <span className="like">
-                        <img className="img-space" src={img_crz} alt="Crz - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                        <img className="img-space" src={img_crz} alt="Crz - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy"/>
                         241
                     </span>
                     <span className="comment">
-                        <img className="img-space" src={img_msg} alt="Msg - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                        <img className="img-space" src={img_msg} alt="Msg - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy"/>
                         236
                     </span>
                 </div>

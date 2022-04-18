@@ -5,7 +5,6 @@ function Button(props) {
             <div className="flex justify-content">
                 <a className={ButtonCss.btn} href="/">
                     {props.name}
-                    {/* <img src={props.img} alt="Arrow - Brando Rodriguez - @brandorodriguez - brandorodriguez.com"/> */}
                 </a>
             </div>
         </>

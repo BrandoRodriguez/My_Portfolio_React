@@ -20,11 +20,11 @@ function Header() {
                         <img src={img_greeting} alt="Greeting - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
                     </div>
                     <div className="presentation-content">
-                        <h2>
+                        <h2 className='text-white'>
                             Hi! I’m
                         </h2>
                         <img src={img_hello} alt="Name_Perfil - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
-                        <h2>
+                        <h2 className='text-white'>
                             Full Stack Developer
                         </h2>
                     </div>

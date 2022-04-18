@@ -8,7 +8,7 @@ function CardTestimonial(props) {
 
                 <div className="single-testimonial">
                     <div className="content">
-                        <img loading="lazy" src={Quote} alt="Quote - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" className="quote" />
+                        <img className="quote" src={Quote} alt="Quote - Brando Rodriguez - @brandorodriguez - brandorodriguez.com"  loading="lazy"/>
                         <h2 className='text-white'>t is a long established fact that a reader will be distracted by the
                             readable content of a page when looking at its layout. The point of using Lorem Ipsum.
                         </h2>
@@ -18,7 +18,7 @@ function CardTestimonial(props) {
                         </div>
                     </div>
                     <div className="author-img-wrapper animated">
-                        <img src={Img_Testmonial} className="author-img" alt="Author_Img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                        <img src={Img_Testmonial} className="author-img" alt="Author_Img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy"/>
                     </div>
                 </div>
     

@@ -9,14 +9,14 @@ function Card(props) {
             <div className="single-portfolio">
                 <div className="img-area">
                     <span className="count ">{props.number}</span>
-                    <img src={props.img} alt="portfolio_img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                    <img src={props.img} alt="portfolio_img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy" />
                 </div>
                 <div className="portfolio-content">
                     <Badge badge={props.badge}/>
                     <h2 className="text-white text-xl">{props.title}</h2>
                     <div className="flex justify-center items-center">
                         <div className="icon-tec">
-                            <img src={img_figma} alt="Logo_Tec - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                            <img src={img_figma} alt="Logo_Tec - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy"/>
                         </div>
                     </div>
                     <p className="text-md">{props.information}</p>

@@ -8,6 +8,7 @@ import Testimonial from '../Section/Testimonial';
 import Button from '../Components/Button.jsx';
 import Skill from '../Section/Skill.jsx';
 import Blog from '../Section/Blog.jsx';
+import Footer from '../Section/Footer.jsx';
 import Img_shape from '../assets/images/shape.svg';
 import Img_shape_rotate from '../assets/images/shape-rotate.svg';
 
@@ -107,6 +108,10 @@ function Home(props) {
                     check2='Web layout'
                     check3='Logic functionality'
                 />
+            </section>
+
+            <section class="footer-section">
+                <Footer/>
             </section>
 
         </>

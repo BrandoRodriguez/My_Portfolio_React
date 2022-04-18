@@ -5,9 +5,9 @@ function Check(props) {
         <>
             <div className="flex items-center ctn-check">
                 <div className="flex items-center justify-content check">
-                    <img src={img_check} alt="check_brandorodriguez" />
+                    <img src={img_check} alt="check_brandorodriguez" loading="lazy"/>
                 </div>
-                <span className="text-sm">{props.check}</span>
+                <span className="text-sm text-white">{props.check}</span>
             </div>
 
         </>

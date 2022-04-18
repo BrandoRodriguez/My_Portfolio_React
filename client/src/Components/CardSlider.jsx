@@ -24,7 +24,7 @@ function CardSlider(props) {
                 </a>
             </div>
             <div className={CardSliderCss.portfolio_img}>
-                <img loading="lazy" src={img_ecomerce} alt="Portfolio_Img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                <img src={img_ecomerce} alt="Portfolio_Img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy"/>
             </div>
 
         </>

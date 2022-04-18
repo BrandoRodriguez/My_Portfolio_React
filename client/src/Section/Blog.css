@@ -1,4 +1,4 @@
-.container-blog{
+.container-blog {
     position: relative;
     overflow: hidden;
 }
@@ -16,19 +16,19 @@
 }
 
 
-@media (min-width: 1024px){
-    .container-blog{
+@media (min-width: 1024px) {
+    .container-blog {
         overflow: inherit;
     }
 
     .blog-section .blog-wrapper {
         display: flex;
     }
-    
+
     .blog-section .single-blog {
         width: calc(100% / 4 - 0px);
     }
-    
+
     .blog-section .section-title {
         padding-bottom: 100px;
     }

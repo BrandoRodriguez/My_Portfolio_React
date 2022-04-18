@@ -19,7 +19,7 @@ function App() {
       <Nav />
       <Switch>
         <Route exact path="/">
-          <Home />
+          <h1>Hello</h1>
         </Route>
         <Route exact path="/projects">
           <Home />

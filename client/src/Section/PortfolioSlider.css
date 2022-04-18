@@ -1,0 +1,64 @@
+
+.portfolio-section-right-container {
+    position: relative;
+    z-index: 2;
+    margin-right: 0;
+    max-width: 1599px;
+    padding-bottom: 50px;
+}
+
+.slide-container.active {
+    display: flex;
+    flex-flow: column-reverse;
+}
+.slide-container {
+    display: none;
+}
+.button {
+    gap: 20px;
+    justify-content: center;
+    padding-top: 70px;
+    z-index: 1;
+}
+.slick-arrow {
+    border: 1px solid #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0.2;
+}
+
+.slick-arrow:hover {
+    background: #f43534;
+    border-color: #f43534;
+    opacity: 1;
+}
+
+
+@media (min-width: 1024px){
+    .slide-container.active {
+        flex-flow: row;
+    }
+    .portfolio-section-right-container {
+        padding-bottom: 70px;
+    }
+}
+@media (min-width: 1400px){
+    .button {
+        position: absolute;
+        bottom: 80px;
+        left: 60px;
+    }
+}
+@media (min-width: 1700px){
+    .button {
+        left: 0px;
+    }
+}
+
+

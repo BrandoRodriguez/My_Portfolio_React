@@ -1,0 +1,111 @@
+.header {
+    display: flex;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgb(0 0 0 / 25%) 0px 2px 4px 0px;
+    position: relative;
+    z-index: 2;
+
+}
+.logo img {
+    height: 27px;
+}
+.space> :not([hidden])~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.nav-hidden {
+    display: none;
+}
+.nav span {
+    height: 5px;
+    width: 5px;
+    background: #726B6B;
+    border-radius: 100%;
+}
+.btn {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 9999px;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    background: linear-gradient(131.79deg, rgba(0, 194, 255) 3.6%, rgba(67, 66, 77, 0.1) 48.41%, rgba(255, 50, 50) 96.11%);
+}
+.btn:hover {
+    background: linear-gradient(310deg, rgba(0, 194, 255) 3.6%, rgba(67, 66, 77, 0.1) 48.41%, rgba(255, 50, 50) 96.11%);
+    transition: all 0.5s ease;
+}
+
+.humbarger {
+    width: 25px;
+    height: 18px;
+    position: relative;
+    cursor: pointer;
+}
+.humbarger span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    border-radius: 8px;
+}
+.humbarger span:nth-child(1) {
+    top: 0;
+    right: 0%;
+    width: 75%;
+}
+.humbarger span:nth-child(2) {
+    top: 45%;
+    right: 0%;
+    width: 100%;
+}
+.humbarger span:nth-child(3) {
+    bottom: 0;
+    right: 0%;
+    width: 60%;
+}
+@media (max-width: 1023px) {
+    .btn-header {
+        margin-left: auto;
+        margin-right: 15px;
+    }
+}
+@media (min-width: 1024px) {
+    .header {
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 20px;
+        padding-bottom: 0;
+        box-shadow: none;
+    }
+    .logo img {
+        height: 35px;
+    }
+    .nav-hidden {
+        display: block;
+    }
+    .btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .btn-hidden {
+        display: none;
+    }
+}
+@media (min-width: 1280px) {
+    .header {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

@@ -1,0 +1,35 @@
+.container-blog{
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-section .section-title {
+    padding-bottom: 35px;
+}
+
+.blog-section .blog-wrapper {
+    position: relative;
+    z-index: 2;
+    display: block;
+    flex-flow: row;
+    gap: 20px;
+}
+
+
+@media (min-width: 1024px){
+    .container-blog{
+        overflow: inherit;
+    }
+
+    .blog-section .blog-wrapper {
+        display: flex;
+    }
+    
+    .blog-section .single-blog {
+        width: calc(100% / 4 - 0px);
+    }
+    
+    .blog-section .section-title {
+        padding-bottom: 100px;
+    }
+}

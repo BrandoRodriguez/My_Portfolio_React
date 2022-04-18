@@ -1,0 +1,87 @@
+.section-title {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    position: relative;
+    font-size: 50px;
+    color: rgb(71, 67, 67);
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: "FuturaBT-Bold";
+    font-weight: 900;
+}
+.bg-title {
+    background: linear-gradient(180deg, rgba(0, 194, 255, 0.3) 10%,rgba(255, 50, 50, 0.3) 50%, rgba(67, 66, 77, 0.1) 65% );
+    font-size: 140px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    line-height: .8;
+    position: relative;
+    font-family: "FuturaBT-Bold";
+    font-weight: 900;
+}
+.ctn-content {
+    position: relative;
+    top: -60px;
+    width: 100%;
+    margin: auto;
+}
+.ctn-content h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+.ctn-content p {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 25px;
+    font-size: 15px;
+    letter-spacing: .02em;
+    padding-bottom: 15px;
+}
+.ctn-content .color {
+    color: #83AD9F;
+}
+
+
+
+@media (min-width: 1024px) {
+    .section-title {
+        font-size: 65px;
+    }
+    .bg-title{
+        font-size: 350px;
+    }
+    .ctn-content {
+        top: -150px;
+    }
+    .ctn-content h2 {
+        font-size: 40px;
+    }
+    .ctn-content p {
+        padding-right: 120px;
+        padding-left: 120px;
+        padding-top: 25px;
+        font-size: 18px;
+    }
+    .information-check {
+        display: flex;
+    }
+}
+
+@media (min-width: 1280px) {
+    .section-title {
+        font-size: 84px;
+    }
+    .bg-title{
+        font-size: 400px;
+    }
+    .ctn-content h2 {
+        font-size: 60px;
+    }
+}
+@media (min-width: 1400px) {
+    .section-title {
+        font-size: 95px;
+    }
+}

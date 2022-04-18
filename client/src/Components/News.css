@@ -1,0 +1,38 @@
+.news {
+    position: relative;
+    height: 80px;
+    gap: 8px;
+    border-bottom: 1px solid rgba(92, 91, 91, var(--tw-border-opacity));
+    --tw-border-opacity: .1;
+}
+@media (min-width: 1024px) {
+    .news {
+        position: absolute;
+        border-bottom: none;
+    }
+    
+    .news-one {
+        right: 170px;
+        top: 0;
+    }
+    
+}
+
+@media (min-width: 1280px) {
+    .news {
+        width: 380px;
+    }
+    .news-one {
+        height: 80px;
+        right: 140px;
+    }
+    
+}
+
+@media (min-width: 1400px) {
+    .news-one {
+        height: 80px;
+        right: 180px;
+    }
+    
+}

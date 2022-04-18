@@ -1,0 +1,141 @@
+
+    .skill-wrapper {
+        position: relative;
+        margin: 0 auto;
+        z-index: 2;
+        display: block;
+        max-width: 320px;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .vertical-line {
+        display: block;
+        height: calc(100% + 50px);
+        width: 1px;
+        background: #F6F508;
+        position: absolute;
+        left: 0%;
+        top: -35px;
+    }
+
+    .single-skill {
+        width: 100%;
+        max-width: calc(100% - 30px);
+        background: linear-gradient(to left, rgba(0, 0, 0, 0) 1%, rgba(78, 78, 78, 0.50) 100%, rgba(78, 78, 78, 1) 10%);
+        padding: 15px 10px;
+        border-radius: 5px;
+        position: relative;
+        z-index: 1;
+        justify-content: center;
+        display: flex;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    .single-skill.animate:nth-child(odd) {
+        background: linear-gradient(to right, rgba(0, 0, 0, 0) 1%, rgba(78, 78, 78, 0.50) 100%, rgba(78, 78, 78, 1) 10%);
+        margin-bottom: 30px;
+    }
+
+    .single-skill span.circle {
+        display: block;
+        width: 14px;
+        height: 14px;
+        background: #F6F508;
+        border-radius: 100%;
+        position: absolute;
+        top: 32px;
+        z-index: 2;
+        box-shadow: 0 0px 0px 8px #333;
+        right: inherit;
+        left: -39px;
+    }
+
+    .circl {
+        display: block;
+        width: 12px;
+        height: 12px;
+        background: #F6F508;
+        border-radius: 100%;
+        position: absolute;
+        left: -5px;
+        z-index: 2;
+        box-shadow: 0 0px 0px 8px #333;
+    }
+
+    .single-skill:nth-child(odd) span.circle {
+        right: inherit;
+        left: -39px;
+    }
+
+    .single-skill span.rectengle {
+        position: absolute;
+        top: 25px;
+        right: -33px;
+        height: 30px;
+        width: 70px;
+        left: -32px;
+        background: linear-gradient(to right, rgba(78, 78, 78, 0.50) 0%, rgba(0, 0, 0, 0) 50%);
+        z-index: -1;
+    }
+
+    .single-skill:nth-child(odd) span.rectengle {
+        right: inherit;
+        left: -32px;
+        background: linear-gradient(to right, rgba(78, 78, 78, 0.50) 0%, rgba(0, 0, 0, 0) 50%)
+    }
+
+    .single-skill.animated:nth-child(odd) {
+        transform: translate(0, 20px);
+    }
+
+    @media (min-width: 768px) {
+        .skill-wrapper {
+            display: flex;
+            max-width: 865px;
+        }
+
+        .vertical-line {
+            left: 50%;
+        }
+
+        .single-skill {
+            max-width: 340px;
+            width: 50%;
+            margin-left: 0px;
+        }
+
+        .single-skill span.circle {
+            top: 32px;
+            right: -39px;
+            left: inherit;
+        }
+
+        .single-skill span.rectengle {
+            background: linear-gradient(to right, rgba(0, 0, 0, 0) 1%, rgba(78, 78, 78, 0.50) 99%, rgba(78, 78, 78, 1) 10%);
+            left: inherit;
+        }
+
+        .single-skill:nth-child(odd) span.rectengle {
+            right: inherit;
+            left: -33px;
+            background: linear-gradient(to left, rgba(0, 0, 0, 0) 1%, rgba(78, 78, 78, 0.50) 99%, rgba(78, 78, 78, 1) 10%);
+        }
+
+        .single-skill.animate:nth-child(odd) {
+            transform: translate(0, 50px);
+        }
+    
+    }
+    @media (min-width: 1024px) {
+        .skill-wrapper {
+            margin-top: -120px;
+        }
+        .single-skill {
+            max-width: 400px;
+        }
+    }

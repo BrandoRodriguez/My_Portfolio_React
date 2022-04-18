@@ -1,0 +1,10 @@
+.skill-img{
+    border: 1px solid #F6F508;
+    border-radius: 27px;
+}
+
+@media (min-width: 1024px) {
+    .skill-img {
+        transform: translate(0%, -30%);
+    }
+}

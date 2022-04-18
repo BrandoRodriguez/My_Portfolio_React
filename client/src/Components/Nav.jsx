@@ -1,46 +1,47 @@
 import './Nav.css'
 import img_logo from '../assets/images/logo.png'
+import { Link } from 'react-router-dom';
 
-const right ={
+const right = {
     width: '100px'
 };
 
 function Nav() {
     return (
         <>
-        
-            <nav className="relative">
-                <div className="header">
-                    <a className="logo" href="/" style={right} >
-                        <img src={img_logo} alt="logo - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
-                    </a>
-                    <div className="nav-hidden">
-                        <ul className="nav flex items-baseline space">
-                            <li><a className="text-white text-sm" href="/">About</a></li>
-                            <span>
-                            </span>
-                            <li><a className="text-white text-sm" href="/">Skills</a></li>
-                            <span>
-                            </span>
-                            <li><a className="text-white text-sm" href="/">Projects</a></li>
-                            <span>
-                            </span>
-                            <li><a className="text-white text-sm" href="/">Resources</a></li>
-                            <span>
-                            </span>
-                            <li><a className="text-white text-sm" href="/">Contact</a>
-                            </li>
-                        </ul>
+            <section className='navbar-section'>
+                <nav className="relative">
+                    <div className="header">
+                        <Link className="logo" to="/" style={right} >
+                            <img src={img_logo} alt="logo - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                        </Link>
+                        <div className="nav-hidden">
+                            <ul className="nav flex items-baseline space">
+                                <li><Link className="text-white text-sm" to="/projects">About</Link></li>
+                                <span>
+                                </span>
+                                <li><Link className="text-white text-sm" to="/">Skills</Link></li>
+                                <span>
+                                </span>
+                                <li><Link className="text-white text-sm" to="/">Projects</Link></li>
+                                <span>
+                                </span>
+                                <li><Link className="text-white text-sm" to="/">Resources</Link></li>
+                                <span>
+                                </span>
+                                <li><Link className="text-white text-sm" to="/">Contact</Link>
+                                </li>
+                            </ul>
+                        </div>
+                        <Link class="btn btn-header text-white text-sm " to="/">Resume</Link>
+                        <div class="humbarger btn-hidden">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
-                    <a class="btn btn-header text-white text-sm " href="/">Resume</a>
-                    <div class="humbarger btn-hidden">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </div>
-            </nav>
-
+                </nav>
+            </section>
         </>
     );
 }

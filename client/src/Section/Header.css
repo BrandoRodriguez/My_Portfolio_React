@@ -1,5 +1,5 @@
 .presentation-section {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .presentation-walper::before {
@@ -48,7 +48,7 @@
 
 @media (min-width: 1024px) {
     .presentation-section {
-        padding-top: 50px;
+        padding-top: 120px;
     }
 
     .presentation-section .section-title {

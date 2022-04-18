@@ -1,5 +1,4 @@
 import './Home.css'
-import Nav from '../Components/Nav.jsx';
 import Header from '../Section/Header.jsx';
 import Portfolio from "../Section/Portfolio.jsx";
 import Information from "../Section/Information.jsx";
@@ -9,7 +8,6 @@ import Button from '../Components/Button.jsx';
 import Skill from '../Section/Skill.jsx';
 import Blog from '../Section/Blog.jsx';
 import Resources from '../Section/Resources.jsx';
-import Footer from '../Section/Footer.jsx';
 import Img_shape from '../assets/images/shape.svg';
 import Img_shape_rotate from '../assets/images/shape-rotate.svg';
 
@@ -20,21 +18,10 @@ const rotate = {
 function Home(props) {
     return (
         <>
-            <div className="background-noise"></div>
-
-            <div className='container-vertical-linea'>
-                <span class="vertical-linea line1"></span>
-                <span class="vertical-linea line2"></span>
-                <span class="vertical-linea line3"></span>
-                <span class="vertical-linea line4"></span>
-                <span class="vertical-linea line5"></span>
-            </div>
-
             <section className="header-section">
-                <Nav />
-                <section className='presentation-section'>
+                <div className='presentation-section'>
                     <Header />
-                </section>
+                </div>
             </section>
 
             <section className="portfolio-section">
@@ -42,7 +29,6 @@ function Home(props) {
             </section>
 
             <section className="portfolio-information-section">
-                <div className="container mx-auto">
                     <Information
                         title='New projects every week.'
                         bgtitle='WEB'
@@ -52,7 +38,6 @@ function Home(props) {
                         check2='Web layout'
                         check3='Logic functionality'
                     />
-                </div>
             </section>
 
             <section className="portfolio-section-right">
@@ -114,11 +99,6 @@ function Home(props) {
             <section class="resources-section">
                 <Resources/>
             </section>
-
-            <section class="footer-section">
-                <Footer />
-            </section>
-
         </>
 
     );

@@ -55,6 +55,7 @@ function Home(props) {
                     check1='Web design'
                     check2='Web layout'
                     check3='Logic functionality'
+                    name='See all projects'
                 />
                 <div class="section-bottom-shape">
                     <img src={Img_shape} alt="shape_brandorodriguez" />

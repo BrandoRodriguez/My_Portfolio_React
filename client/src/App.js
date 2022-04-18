@@ -1,7 +1,8 @@
+import { Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home.jsx';
 import Nav from './Components/Nav.jsx'
 import Footer from './Section/Footer.jsx';
-import { Route, Switch } from 'react-router-dom'
+import Projects from './Pages/Projects.jsx';
 
 
 function App() {
@@ -21,8 +22,8 @@ function App() {
         <Route exact path="/">
           <Home />
         </Route>
-        <Route exact path="/projects">
-          <Home />
+        <Route exact path="/projects-dogs">
+          <Projects />
         </Route>
       </Switch>
       <Footer />

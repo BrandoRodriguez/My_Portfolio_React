@@ -1,0 +1,16 @@
+:root {
+    --background-1: radial-gradient(farthest-corner at top left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom right, rgba(255, 50, 50, 0.4), transparent 30%);
+    --background-2: radial-gradient(farthest-corner at top right, rgba(255, 50, 50, 0.4), transparent 30%), radial-gradient(farthest-corner at bottom left, rgba(0, 194, 255, 0.3), transparent 30%);
+    --background-3: radial-gradient(farthest-corner at top left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom center, rgba(255, 50, 50, 0.3), transparent 40%);
+}
+
+.information-section {
+    padding-top: 120px;
+    background: var(--background-1);
+}
+
+@media (min-width: 1024px) {
+    .information-section {
+        background: var(--background-3);
+    }
+}

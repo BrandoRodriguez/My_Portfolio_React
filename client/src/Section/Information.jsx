@@ -45,7 +45,7 @@ function Information(props) {
                         <img src={img_4} alt="" />
                     </div>
                     <div className="flex justify-content mx-auto gap">
-                        <Button name='See all projects' />
+                        <Button name={props.name} />
                         <Button name='Contact me' />
                     </div>
                 </div>

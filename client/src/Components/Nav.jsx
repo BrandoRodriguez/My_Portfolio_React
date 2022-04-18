@@ -17,7 +17,7 @@ function Nav() {
                         </Link>
                         <div className="nav-hidden">
                             <ul className="nav flex items-baseline space">
-                                <li><Link className="text-white text-sm" to="/projects">About</Link></li>
+                                <li><Link className="text-white text-sm" to="/">About</Link></li>
                                 <span>
                                 </span>
                                 <li><Link className="text-white text-sm" to="/">Skills</Link></li>

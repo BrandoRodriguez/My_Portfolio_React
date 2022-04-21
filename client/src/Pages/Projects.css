@@ -9,6 +9,9 @@
     background: var(--background-1);
 }
 
+iframe{
+    border: none;
+}
 @media (min-width: 1024px) {
     .information-section {
         background: var(--background-3);

@@ -87,9 +87,9 @@
         padding-top: 15px;
         padding-bottom: 15px;
         box-shadow: none;
-        border-bottom: 1px solid;
+        /* border-bottom: 1px solid;
         --tw-border-opacity: .2;
-        border-color: rgba(92, 91, 91, var(--tw-border-opacity));
+        border-color: rgba(92, 91, 91, var(--tw-border-opacity)); */
     
     }
     .logo img {

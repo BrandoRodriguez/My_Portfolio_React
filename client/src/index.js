@@ -6,8 +6,8 @@ import App from './App.js'
 
 
 ReactDOM.render(
-      <Router>
-        <App />
-      </Router>,
+  <Router>
+    <App />
+  </Router>,
   document.getElementById('home-public')
 );

@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto,sans-serif;
+    font-family: "GT-Walsheim";
     letter-spacing: .03em;
     background-color: rgb(21, 21, 21);
 }
@@ -230,7 +230,6 @@ p {
 @media (min-width: 1024px) {
     .text-xx {
         font-size: 54px;
-        letter-spacing: .02em;
     }
 
     .text-xl {

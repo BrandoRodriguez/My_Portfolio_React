@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b6b47c6.chunk.css",
+    "main.js": "/static/js/main.09168ca3.chunk.js",
+    "main.js.map": "/static/js/main.09168ca3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8686503b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8686503b.js.map",
+    "static/js/2.107696d1.chunk.js": "/static/js/2.107696d1.chunk.js",
+    "static/js/2.107696d1.chunk.js.map": "/static/js/2.107696d1.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4b6b47c6.chunk.css.map": "/static/css/main.4b6b47c6.chunk.css.map",
+    "static/js/2.107696d1.chunk.js.LICENSE.txt": "/static/js/2.107696d1.chunk.js.LICENSE.txt",
+    "static/media/1.7d67f499.svg": "/static/media/1.7d67f499.svg",
+    "static/media/2.fa31e14d.svg": "/static/media/2.fa31e14d.svg",
+    "static/media/3.1cda23e4.svg": "/static/media/3.1cda23e4.svg",
+    "static/media/4.e1e3cc3b.svg": "/static/media/4.e1e3cc3b.svg",
+    "static/media/index.css": "/static/media/FuturaBT-Bold.e96a5fb3.woff2",
+    "static/media/blog.31d422df.webp": "/static/media/blog.31d422df.webp",
+    "static/media/brandorodriguez.9325ef91.webp": "/static/media/brandorodriguez.9325ef91.webp",
+    "static/media/check.227f908c.svg": "/static/media/check.227f908c.svg",
+    "static/media/crz.97dae047.svg": "/static/media/crz.97dae047.svg",
+    "static/media/CardTestimonial.css": "/static/media/curve.df1ab41d.png",
+    "static/media/dogs.435060a2.png": "/static/media/dogs.435060a2.png",
+    "static/media/ecomerce.70490d00.png": "/static/media/ecomerce.70490d00.png",
+    "static/media/greeting.42752463.webp": "/static/media/greeting.42752463.webp",
+    "static/media/hello.76b511f3.svg": "/static/media/hello.76b511f3.svg",
+    "static/media/henry.c64fe73c.png": "/static/media/henry.c64fe73c.png",
+    "static/media/msg.019f2a0e.svg": "/static/media/msg.019f2a0e.svg",
+    "static/media/pokemon.ca03bc24.png": "/static/media/pokemon.ca03bc24.png",
+    "static/media/pokemonslider.1bfdaa38.png": "/static/media/pokemonslider.1bfdaa38.png",
+    "static/media/quote.1025f6bd.png": "/static/media/quote.1025f6bd.png",
+    "static/media/shape-rotate.94fa8abb.svg": "/static/media/shape-rotate.94fa8abb.svg",
+    "static/media/shape.0322ce7f.svg": "/static/media/shape.0322ce7f.svg",
+    "static/media/testimonial.fd133cdc.jpg": "/static/media/testimonial.fd133cdc.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8686503b.js",
+    "static/js/2.107696d1.chunk.js",
+    "static/css/main.4b6b47c6.chunk.css",
+    "static/js/main.09168ca3.chunk.js"
+  ]
+}

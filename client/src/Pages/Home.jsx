@@ -8,7 +8,6 @@ import Button from '../Components/Button.jsx';
 import Skill from '../Section/Skill.jsx';
 import Blog from '../Section/Blog.jsx';
 import Resources from '../Section/Resources.jsx';
-import Img_shape from '../assets/images/shape.svg';
 import Img_shape_rotate from '../assets/images/shape-rotate.svg';
 
 const rotate = {
@@ -57,9 +56,6 @@ function Home(props) {
                     check3='Logic functionality'
                     name='See all projects'
                 />
-                {/* <div class="section-bottom-shape">
-                    <img src={Img_shape} alt="shape_brandorodriguez" />
-                </div> */}
             </section>
 
             <section class="skill-section" >
@@ -68,9 +64,9 @@ function Home(props) {
             </section>
 
             <section className="blog-information-section">
-                {/* <div class="section-bottom-shape">
+                <div class="section-bottom-shape">
                     <img style={rotate} src={Img_shape_rotate} alt="shape_brandorodriguez" />
-                </div> */}
+                </div>
                 <Information
                     title='New projects every week.'
                     bgtitle='BLOG'

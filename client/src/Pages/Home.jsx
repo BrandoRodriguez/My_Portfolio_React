@@ -24,11 +24,11 @@ function Home(props) {
                 </div>
             </section>
 
-            {/* <section className="portfolio-section">
+            <section className="portfolio-section">
                 <Portfolio />
-            </section> */}
+            </section>
 
-            {/* <section className="portfolio-information-section">
+            <section className="portfolio-information-section">
                     <Information
                         title='New projects every week.'
                         bgtitle='WEB'
@@ -57,9 +57,9 @@ function Home(props) {
                     check3='Logic functionality'
                     name='See all projects'
                 />
-                <div class="section-bottom-shape">
+                {/* <div class="section-bottom-shape">
                     <img src={Img_shape} alt="shape_brandorodriguez" />
-                </div>
+                </div> */}
             </section>
 
             <section class="skill-section" >
@@ -68,9 +68,9 @@ function Home(props) {
             </section>
 
             <section className="blog-information-section">
-                <div class="section-bottom-shape">
+                {/* <div class="section-bottom-shape">
                     <img style={rotate} src={Img_shape_rotate} alt="shape_brandorodriguez" />
-                </div>
+                </div> */}
                 <Information
                     title='New projects every week.'
                     bgtitle='BLOG'
@@ -99,7 +99,7 @@ function Home(props) {
 
             <section class="resources-section">
                 <Resources/>
-            </section> */}
+            </section>
         </>
 
     );

@@ -24,11 +24,11 @@ function Home(props) {
                 </div>
             </section>
 
-            <section className="portfolio-section">
+            {/* <section className="portfolio-section">
                 <Portfolio />
-            </section>
+            </section> */}
 
-            <section className="portfolio-information-section">
+            {/* <section className="portfolio-information-section">
                     <Information
                         title='New projects every week.'
                         bgtitle='WEB'
@@ -99,7 +99,7 @@ function Home(props) {
 
             <section class="resources-section">
                 <Resources/>
-            </section>
+            </section> */}
         </>
 
     );

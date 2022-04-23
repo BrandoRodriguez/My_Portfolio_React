@@ -9,13 +9,13 @@ function App() {
   return (
     <>
       <div className="background-noise"></div>
-      <div className='container-vertical-linea'>
+      {/* <div className='container-vertical-linea'>
         <span class="vertical-linea line1"></span>
         <span class="vertical-linea line2"></span>
         <span class="vertical-linea line3"></span>
         <span class="vertical-linea line4"></span>
         <span class="vertical-linea line5"></span>
-      </div>
+      </div> */}
 
       <Nav />
       <Switch>

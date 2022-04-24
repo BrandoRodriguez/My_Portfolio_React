@@ -9,6 +9,16 @@ function App() {
   return (
     <>
       <div className="background-noise"></div>
+      <Nav />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route exact path="/project-dogs">
+          <Projects />
+        </Route>
+      </Switch>
+      <Footer />
       {/* <div className='container-vertical-linea'>
         <span class="vertical-linea line1"></span>
         <span class="vertical-linea line2"></span>
@@ -16,17 +26,6 @@ function App() {
         <span class="vertical-linea line4"></span>
         <span class="vertical-linea line5"></span>
       </div> */}
-
-      <Nav />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/projects-dogs">
-          <Projects />
-        </Route>
-      </Switch>
-      <Footer />
     </>
 
   );

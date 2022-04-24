@@ -38,10 +38,10 @@
     align-items: center;
     display: flex;
     gap: 5px;
-    background: linear-gradient(131.79deg, rgba(0, 194, 255) 3.6%, rgba(67, 66, 77, 0.1) 48.41%, rgba(255, 50, 50) 96.11%);
+    background: linear-gradient(131.79deg, rgba(0, 194, 255, 0.5) 3.6%, rgba(67, 66, 77, 0.1) 48.41%, rgba(255, 50, 50, 0.8) 96.11%);
 }
 .btn:hover {
-    background: linear-gradient(310deg, rgba(0, 194, 255) 3.6%, rgba(67, 66, 77, 0.1) 48.41%, rgba(255, 50, 50) 96.11%);
+    background: linear-gradient(310deg, rgba(0, 194, 255, 0.5) 3.6%, rgba(67, 66, 77, 0.1) 48.41%, rgba(255, 50, 50, 0.8) 96.11%);
     transition: all 0.5s ease;
 }
 
@@ -86,11 +86,7 @@
         padding-right: 12px;
         padding-top: 15px;
         padding-bottom: 15px;
-        box-shadow: none;
-        /* border-bottom: 1px solid;
-        --tw-border-opacity: .2;
-        border-color: rgba(92, 91, 91, var(--tw-border-opacity)); */
-    
+        box-shadow: none; 
     }
     .logo img {
         height: 35px;
@@ -99,10 +95,8 @@
         display: block;
     }
     .btn {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-top: 12px;
+        padding-bottom: 12px;
     }
     .btn-hidden {
         display: none;

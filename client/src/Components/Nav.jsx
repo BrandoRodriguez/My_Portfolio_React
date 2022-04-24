@@ -3,7 +3,7 @@ import img_logo from '../assets/images/logo.png'
 import { Link } from 'react-router-dom';
 
 const right = {
-    width: '100px'
+    width: '90px'
 };
 
 function Nav() {

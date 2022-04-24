@@ -8,7 +8,7 @@ function News(props) {
         <>
             <div className="news news-one flex items-center text-white">
                 <div>
-                    <Link to="projects-dogs">
+                    <Link to="/project-dogs">
                         <Arrow />
                     </Link>
                 </div>

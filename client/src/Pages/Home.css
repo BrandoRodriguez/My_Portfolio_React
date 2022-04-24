@@ -1,14 +1,14 @@
 :root {
-    --background-1: radial-gradient(farthest-corner at top left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom right, rgba(255, 50, 50, 0.4), transparent 30%);
-    --background-2: radial-gradient(farthest-corner at top right, rgba(255, 50, 50, 0.4), transparent 30%), radial-gradient(farthest-corner at bottom left, rgba(0, 194, 255, 0.3), transparent 30%);
+    --background-1: radial-gradient(farthest-side at top left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom right, rgba(255, 50, 50, 0.3), transparent 30%);
+    --background-4: radial-gradient(farthest-corner at top right, rgba(255, 50, 50, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom left, rgba(0, 194, 255, 0.3), transparent 30%);
 }
 
 .header-section {
-    background: var(--background-1);
+    background: radial-gradient(farthest-side at top left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom right, rgba(255, 50, 50, 0.3), transparent 30%);
 }
 
 .portfolio-section {
-    background: var(--background-2);
+    background: var(--background-4);
 }
 
 .portfolio-information-section {

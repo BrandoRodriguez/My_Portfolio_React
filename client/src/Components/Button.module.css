@@ -7,13 +7,13 @@
     align-items: center;
     display: flex;
     gap: 5px;
-    background: linear-gradient(131.79deg, rgba(0, 194, 255) 3.6%, rgba(67, 66, 77, 0.1) 48.41%, rgba(255, 50, 50) 96.11%);
+    background: linear-gradient(131.79deg, rgba(0, 194, 255, 0.5) 3.6%, rgba(67, 66, 77, 0.1) 48.41%, rgba(255, 50, 50, 0.8) 96.11%);
     color: #fff;
     font-size: 15px;
 }
 
 .btn:hover {
-    background: linear-gradient(310deg, rgba(0, 194, 255) 3.6%, rgba(67, 66, 77, 0.1) 48.41%, rgba(255, 50, 50) 96.11%);
+    background: linear-gradient(310deg, rgba(0, 194, 255, 0.5) 3.6%, rgba(67, 66, 77, 0.1) 48.41%, rgba(255, 50, 50, 0.8) 96.11%);
     transition: all 0.5s ease;
 }
 

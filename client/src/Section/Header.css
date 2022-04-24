@@ -15,7 +15,7 @@
     position: absolute;
     bottom: 0;
     width: 280px;
-    filter: drop-shadow(1px 0px 5px rgb(21, 21, 21));
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 .presentation-description {
@@ -27,7 +27,7 @@
     border: 1px solid rgba(92, 91, 91, .3);
     backdrop-filter: none;
     gap: 7px;
-    top: 29%;
+    top: 27%;
     background: rgb(21,21,21,.8);
 }
 
@@ -47,10 +47,6 @@
 }
 
 @media (min-width: 1024px) {
-    .presentation-section {
-        padding-top: 120px;
-    }
-
     .presentation-section .section-title {
         bottom: 25px;
         position: absolute;

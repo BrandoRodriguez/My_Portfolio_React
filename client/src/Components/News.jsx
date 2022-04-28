@@ -13,9 +13,9 @@ function News(props) {
                     </Link>
                 </div>
                 <div>
-                    <Badge badge='Modern Shop' />
+                    <Badge badge='Pokemon App' />
                     <h3 className="text-sm">
-                        ECommerce | Layout, Design, & Styling.
+                        Project Pokemon Full-Stack.
                     </h3>
                 </div>
             </div>

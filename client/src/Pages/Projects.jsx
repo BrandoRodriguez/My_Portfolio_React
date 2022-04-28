@@ -16,9 +16,9 @@ function Projects(props) {
                     name='Demo'
                 />
             </section>
-            <div className='container-iframe mx-auto'>
-                <iframe title='h' className='container-iframe'  src="http://localhost:3000" height="900"></iframe>
-            </div>
+            {/* <div className='container-iframe mx-auto'>
+                <iframe title='h' className='container-iframe'  src="" height="900"></iframe>
+            </div> */}
 
         </>
     );

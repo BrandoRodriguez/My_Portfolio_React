@@ -14,7 +14,8 @@ function Card(props) {
                         <source srcset={props.img_mb} media="(max-width: 414px)" />
                         <img srcset={props.img} alt="portfolio_img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
                     </picture> */}
-                    <img src={props.img} alt="portfolio_img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy" />
+                    <img src={props.img} alt="portfolio_img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" 
+                    loading="lazy"  width="768" height="432"/>
 
                 </div>
                 <div className="portfolio-content">

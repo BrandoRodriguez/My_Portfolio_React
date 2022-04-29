@@ -1,7 +1,7 @@
 import './Resources.css'
 
 import CardResource from "../Components/CardResource.jsx";
-import img_resource from '../assets/images/img-projects/pokemon.png'
+import img_resource from '../assets/images/img-projects/pokemon.webp'
 
 function Resources(props) {
     return (
@@ -9,7 +9,7 @@ function Resources(props) {
             <div className="container-resources container mx-auto ">
                 <div className="card-resource-primary">
                     <a href="/">
-                        <img src={img_resource} alt="Resources_Card_Primary - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                        <img src={img_resource} alt="Resources_Card_Primary - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />                      
                         <div className="hero-content">
                             <span className="badge text-s">
                                 <span className="text-s text-white">

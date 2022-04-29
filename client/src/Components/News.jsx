@@ -6,19 +6,19 @@ import { Link } from 'react-router-dom';
 function News(props) {
     return (
         <>
-            <div className="news news-one flex items-center text-white">
+            
                 <div>
                     <Link to="/project-dogs">
                         <Arrow />
                     </Link>
                 </div>
                 <div>
-                    <Badge badge='Pokemon App' />
+                    <Badge badge={props.badge} />
                     <h3 className="text-sm">
-                        Project Pokemon Full-Stack.
+                        {props.name}
                     </h3>
                 </div>
-            </div>
+           
         </>
     );
 }

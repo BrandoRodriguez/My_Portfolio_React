@@ -12,8 +12,16 @@
     }
     
     .news-one {
-        right: 170px;
+        right: 180px;
         top: 0;
+    }
+    .news-thwo {
+        top: 90px;
+        right: 70px;
+    }
+    .news-three {
+        top: 180px;
+        right: 40px;
     }
     
 }
@@ -26,6 +34,14 @@
         height: 80px;
         right: 140px;
     }
+    .news-thwo {
+        top: 90px;
+        right: 70px;
+    }
+    .news-three {
+        top: 180px;
+        right: 50px;
+    }
     
 }
 
@@ -33,6 +49,14 @@
     .news-one {
         height: 80px;
         right: 180px;
+    }
+    .news-thwo{
+        top: 90px;
+        right: 120px;
+    }
+    .news-three {
+        top: 180px;
+        right: 100px;
     }
     
 }

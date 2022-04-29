@@ -30,7 +30,26 @@ function Header() {
                     </div>
                 </div>
                 <>
-                <News/>
+
+                    <div className="news news-one flex items-center text-white">
+                        <News
+                            badge='Pokemon App'
+                            name='Pokemon app, backend and frontend.'
+                        />
+                    </div>
+                    <div className="news news-thwo flex items-center text-white">
+                        <News
+                            badge='Dogs App'
+                            name='Dog breeds app, backend and frontend.'
+                        />
+                    </div>
+                    <div className="news news-three flex items-center text-white">
+                        <News
+                            badge='Shop App'
+                            name='ECommerce | Layout, Design, & Styling.'
+                        />
+                    </div>
+
                 </>
                 <h2 class="section-title top">projects</h2>
             </div>

@@ -27,12 +27,7 @@ function Information(props) {
                     <h2 className="text-white color">
                         {props.subtitlecolor}
                     </h2>
-                    <p className="text-center ">Award-winning collection. Install any demo or template with a single click.
-                        You can mix and match all the demos and templates. Every demo can be turned into one or multi-page
-                        with
-                        the
-                        shopping features.
-                    </p>
+                    <p className="text-center ">{props.description}</p>
                     <div className="information-check justify-content mx-auto gap" >
                         <Check check={props.check1}/>
                         <Check check={props.check2}/>

@@ -6,10 +6,11 @@ function Projects(props) {
         <>
             <section className="information-section">
                 <Information
-                    title='dogs web application project.'
-                    bgtitle='DOGS'
-                    subtitle='Experience the top notch performance.'
-                    subtitlecolor='Real and challenging projects.'
+                    title='Pokemon app, backend and frontend.'
+                    bgtitle='POKEMON'
+                    subtitle='Pokemon App,'
+                    subtitlecolor='backend and frontend.'
+                    description='Project Objectives Build an App using React, Redux, Node and Sequelize. Affirm and connect the concepts learned in the race. Learn best practices. Learn and practice the GIT workflow. Use and practice testing.'
                     check1='Web design'
                     check2='Web layout'
                     check3='Logic functionality'

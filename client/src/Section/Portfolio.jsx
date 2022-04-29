@@ -19,6 +19,7 @@ function Portfolio() {
                     badge='Pokemon App'
                     title='Pokemon App, Full-Stack.' 
                     information='Project Objectives Build an App using React, Redux, Node and Sequelize.'
+                    rute='/project-pokemon'
                     />
                     <Card number='02' 
                     img={img_dogs}

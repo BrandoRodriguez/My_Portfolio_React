@@ -1,0 +1,9 @@
+.tec{
+    border: 1px solid rgba(92, 91, 91, .3);
+    padding: 7px 7px;
+    border-radius: 999px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    background:rgb(255,255,255,.05);
+}

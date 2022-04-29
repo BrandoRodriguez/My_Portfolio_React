@@ -1,8 +1,8 @@
 import './Portfolio.css'
 import Card from '../Components/Card.jsx'
 import Button from '../Components/Button.jsx'
-import img_ecomerce from '../assets/images/img-projects/ecomerce.png'
-import img_dogs from '../assets/images/img-projects/dogs.png'
+// import img_ecomerce from '../assets/images/img-projects/ecomerce.png'
+// import img_dogs from '../assets/images/img-projects/dogs.png'
 import img_pokemon_mb from '../assets/images/img-projects/pokemon_mb.webp'
 import img_pokemon from '../assets/images/img-projects/pokemon.webp'
 

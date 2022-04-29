@@ -11,7 +11,7 @@ function Card(props) {
                     <span className="count ">{props.number}</span>
                     <picture>
                         <source srcset={props.img_mb} media="(max-width: 414px)" />
-                        <img srcset={props.img} alt="My default image" />
+                        <img srcset={props.img} alt="portfolio_img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
                     </picture>
                     {/* <img src={props.img} alt="portfolio_img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy" /> */}
 

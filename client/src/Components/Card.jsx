@@ -3,8 +3,6 @@ import Badge from './Badge.jsx'
 import Arrow from './Arrow.jsx'
 import img_react from '../assets/images/img-tec/react.webp'
 import img_node from '../assets/images/img-tec/node.webp'
-import img_figma from '../assets/images/img-tec/figma.png'
-
 
 function Card(props) {
     return (
@@ -23,9 +21,6 @@ function Card(props) {
                     <Badge badge={props.badge} />
                     <h2 className="text-white text-xl">{props.title}</h2>
                     <div className="cnt-icon-tec flex justify-center items-center">
-                    <div className="icon-tec">
-                            <img src={img_figma} alt="Logo_Tec - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy" />
-                        </div>
                         <div className="icon-tec">
                             <img src={img_react} alt="Logo_Tec - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy" />
                         </div>

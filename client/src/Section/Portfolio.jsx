@@ -17,7 +17,7 @@ function Portfolio() {
                     <Card number='01' 
                     img={img_pokemon}
                     badge='Pokemon App'
-                    title=' Project Pokemon FullStack.' 
+                    title='Pokemon App, Full-Stack.' 
                     information='Project Objectives Build an App using React, Redux, Node and Sequelize.'
                     />
                     {/* <Card number='02' 

@@ -29,6 +29,9 @@
     text-align: justify;
     padding-bottom: 15px;
 }
+.cnt-icon-tec{
+    gap: 5px;
+}
 
 .icon-tec {
     border: 1px solid rgba(92, 91, 91, .3);
@@ -40,6 +43,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 5px;
 }
 .icon-tec img {
     height: 30px;

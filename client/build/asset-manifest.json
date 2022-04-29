@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bcf2181d.chunk.css",
+    "main.js": "/static/js/main.703cfe07.chunk.js",
+    "main.js.map": "/static/js/main.703cfe07.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8686503b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8686503b.js.map",
+    "static/js/2.34a96029.chunk.js": "/static/js/2.34a96029.chunk.js",
+    "static/js/2.34a96029.chunk.js.map": "/static/js/2.34a96029.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.bcf2181d.chunk.css.map": "/static/css/main.bcf2181d.chunk.css.map",
+    "static/js/2.34a96029.chunk.js.LICENSE.txt": "/static/js/2.34a96029.chunk.js.LICENSE.txt",
+    "static/media/1.7d67f499.svg": "/static/media/1.7d67f499.svg",
+    "static/media/2.fa31e14d.svg": "/static/media/2.fa31e14d.svg",
+    "static/media/3.1cda23e4.svg": "/static/media/3.1cda23e4.svg",
+    "static/media/4.e1e3cc3b.svg": "/static/media/4.e1e3cc3b.svg",
+    "static/media/index.css": "/static/media/GT-Walsheim-Regular.50a0b407.woff2",
+    "static/media/brandorodriguez.9325ef91.webp": "/static/media/brandorodriguez.9325ef91.webp",
+    "static/media/check.227f908c.svg": "/static/media/check.227f908c.svg",
+    "static/media/dogs.ebcc8d1d.webp": "/static/media/dogs.ebcc8d1d.webp",
+    "static/media/greeting.42752463.webp": "/static/media/greeting.42752463.webp",
+    "static/media/hello.76b511f3.svg": "/static/media/hello.76b511f3.svg",
+    "static/media/pokemon.ce3ce165.webp": "/static/media/pokemon.ce3ce165.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8686503b.js",
+    "static/js/2.34a96029.chunk.js",
+    "static/css/main.bcf2181d.chunk.css",
+    "static/js/main.703cfe07.chunk.js"
+  ]
+}

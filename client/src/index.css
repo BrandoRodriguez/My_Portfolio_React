@@ -5,13 +5,12 @@ body {
 }
 
 @font-face {
-    font-display: swap;
     font-family: "FuturaBT-Bold";
     src: url(./assets/fonts/FuturaBT-Bold.woff2);
     font-weight: 900;
 } 
-@font-face {font-display: swap;font-family: "GT-Walsheim";src: url(./assets/fonts/GT-Walsheim-Regular.woff2);font-weight: 400;}
-@font-face {font-display: swap;font-family: "GT-Walsheim";src: url(./assets/fonts/GT-Walsheim-Bold.woff2);font-weight: 700;}
+@font-face {font-family: "GT-Walsheim";src: url(./assets/fonts/GT-Walsheim-Regular.woff2);font-weight: 400;}
+@font-face {font-family: "GT-Walsheim";src: url(./assets/fonts/GT-Walsheim-Bold.woff2);font-weight: 700;}
 
 
 .background-noise {

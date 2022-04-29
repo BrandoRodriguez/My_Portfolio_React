@@ -15,7 +15,6 @@ function Portfolio() {
             
                 <div class="container mx-auto w-full">              
                     <Card number='01' 
-                    img_mb={img_pokemon_mb} 
                     img={img_pokemon}
                     badge='Pokemon App'
                     title=' Project Pokemon FullStack.' 

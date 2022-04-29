@@ -9,11 +9,11 @@ function Card(props) {
             <div className="single-portfolio">
                 <div className="img-area">
                     <span className="count ">{props.number}</span>
-                    <picture>
+                    {/* <picture>
                         <source srcset={props.img_mb} media="(max-width: 414px)" />
                         <img srcset={props.img} alt="portfolio_img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
-                    </picture>
-                    {/* <img src={props.img} alt="portfolio_img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy" /> */}
+                    </picture> */}
+                    <img src={props.img} alt="portfolio_img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy" />
 
                 </div>
                 <div className="portfolio-content">

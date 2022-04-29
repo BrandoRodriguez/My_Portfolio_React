@@ -13,17 +13,21 @@ function Header() {
                 <div className="presentation-walper flex items-center justify-content">
                 </div>
                 <div className="presentation-img flex items-center justify-content relative">
-                    <img className="flex mx-auto" src={img_brandorodriguez} alt="Img_Perfil - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                    <img className="flex mx-auto" src={img_brandorodriguez} alt="Img_Perfil - Brando Rodriguez - @brandorodriguez - brandorodriguez.com"
+                     width="417" height="442"
+                    />
                 </div>
                 <div className="presentation-description flex items-center justify-content">
                     <div className="presentation-description-img">
-                        <img src={img_greeting} alt="Greeting - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                        <img src={img_greeting} alt="Greeting - Brando Rodriguez - @brandorodriguez - brandorodriguez.com"
+                         width="41" height="43" />
                     </div>
                     <div className="presentation-content">
                         <h2 className='text-white'>
                             Hi! I’m
                         </h2>
-                        <img src={img_hello} alt="Name_Perfil - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                        <img src={img_hello} alt="Name_Perfil - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" 
+                         width="130" height="23"/>
                         <h2 className='text-white'>
                             Full Stack Developer
                         </h2>

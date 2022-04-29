@@ -13,7 +13,8 @@ function Nav() {
                 <nav className="relative">
                     <div className="header">
                         <Link className="logo" to="/" style={right} >
-                            <img src={img_logo} alt="logo - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" />
+                            <img src={img_logo} alt="logo - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" 
+                            />
                         </Link>
                         <div className="nav-hidden">
                             <ul className="nav flex items-baseline space">

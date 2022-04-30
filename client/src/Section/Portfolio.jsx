@@ -27,12 +27,13 @@ function Portfolio() {
                     title='Dog App, Full-Stack.' 
                     information='Project Objectives Build an App using React, Redux, Node and Sequelize.'
                     />
-                    {/* <Card number='03' 
-                    img={img_pokemon} 
-                    badge='modern shop'
-                    title='JQ Official Store Website Design.' 
-                    information='WooCommerce. Hub provides all the tools you need to start selling online. Let your customers to experience WooCommerce at its absolute-best.'
-                    /> */}
+                    <Card number='03' 
+                    img={img_pokemon}
+                    badge='Pokemon App'
+                    title='Pokemon App, Full-Stack.' 
+                    information='Project Objectives Build an App using React, Redux, Node and Sequelize.'
+                    rute='/project-pokemon'
+                    />
                     <Button name='See all projects'/>
                 </div>
            

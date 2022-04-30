@@ -9,6 +9,13 @@ function App() {
   return (
     <>
       <div className="background-noise"></div>
+      <div className='container-vertical-linea'>
+        <span class="vertical-linea line1"></span>
+        <span class="vertical-linea line2"></span>
+        <span class="vertical-linea line3"></span>
+        <span class="vertical-linea line4"></span>
+        <span class="vertical-linea line5"></span>
+      </div>
       <Nav />
       <Switch>
         <Route exact path="/">
@@ -19,13 +26,6 @@ function App() {
         </Route>
       </Switch>
       <Footer />
-      {/* <div className='container-vertical-linea'>
-        <span class="vertical-linea line1"></span>
-        <span class="vertical-linea line2"></span>
-        <span class="vertical-linea line3"></span>
-        <span class="vertical-linea line4"></span>
-        <span class="vertical-linea line5"></span>
-      </div> */}
     </>
 
   );

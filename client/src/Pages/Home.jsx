@@ -29,9 +29,11 @@ function Home(props) {
 
             <section className="portfolio-information-section">
                     <Information
+                        title='Specialize and never stop learning.'
                         bgtitle='WEB'
                         subtitle='Experience the top notch performance.'
                         subtitlecolor='Real and challenging projects.'
+                        description='Award-winning collection. Install any demo or template with a single click. You can mix and match all the demos and templates. Every demo can be turned into one or multi-page with the shopping features.'
                         check1='Web design'
                         check2='Web layout'
                         check3='Logic functionality'

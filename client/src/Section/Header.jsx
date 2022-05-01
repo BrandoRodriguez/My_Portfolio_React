@@ -2,7 +2,7 @@ import './Header.css'
 import News from '../Components/News.jsx'
 import img_brandorodriguez from '../assets/images/brandorodriguez.webp'
 import img_hello from '../assets/images/hello.svg'
-import img_greeting from '../assets/images/greeting.webp'
+import img_greeting from '../assets/images/greeting.png'
 import Arrow from '../Components/Arrow.jsx'
 import { Link } from 'react-router-dom';
 
@@ -15,12 +15,12 @@ function Header() {
                 <div className="presentation-walper flex items-center justify-content">
                     <img className="presentation-img flex mx-auto" src={img_brandorodriguez} alt="Img_Perfil - Brando Rodriguez - @brandorodriguez - brandorodriguez.com"
                         width="417" height="442"
-                    />
+                    />                    
                 </div>
                 <div className="presentation-description flex items-center justify-content">
                     <div className="presentation-description-img">
                         <img src={img_greeting} alt="Greeting - Brando Rodriguez - @brandorodriguez - brandorodriguez.com"
-                            width="41" height="43" />
+                            width="43" height="43" />
                     </div>
                     <div className="presentation-content">
                         <h2 className='text-white'>

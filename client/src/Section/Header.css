@@ -75,6 +75,7 @@
         background: none;
         backdrop-filter: blur(30px);
         top: 29%;
+        gap: 10px;
     }
 
     .presentation-content h2 {

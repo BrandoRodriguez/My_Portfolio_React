@@ -13,9 +13,7 @@ function Header() {
 
             <div className="relative container mx-auto">
                 <div className="presentation-walper flex items-center justify-content">
-                </div>
-                <div className="presentation-img flex items-center justify-content relative">
-                    <img className="flex mx-auto" src={img_brandorodriguez} alt="Img_Perfil - Brando Rodriguez - @brandorodriguez - brandorodriguez.com"
+                    <img className="presentation-img flex mx-auto" src={img_brandorodriguez} alt="Img_Perfil - Brando Rodriguez - @brandorodriguez - brandorodriguez.com"
                         width="417" height="442"
                     />
                 </div>

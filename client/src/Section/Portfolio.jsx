@@ -16,23 +16,23 @@ function Portfolio() {
                 <div class="container mx-auto w-full">              
                     <Card number='01' 
                     img={img_ecomerce}
-                    badge='Pokemon App'
-                    title='Pokemon App, Full-Stack.' 
+                    badge='Ecomerce App'
+                    title='Ecomerce App, Stack PERN.' 
                     information='Project Objectives Build an App using React, Redux, Node and Sequelize.'
                     rute='/project-pokemon'
                     />
                     <Card number='02' 
-                    img={img_dogs}
-                    badge='Pokemon App'
-                    title='Dog App, Full-Stack.' 
-                    information='Project Objectives Build an App using React, Redux, Node and Sequelize.'
-                    />
-                    <Card number='03' 
                     img={img_pokemon}
                     badge='Pokemon App'
-                    title='Pokemon App, Full-Stack.' 
+                    title='Pokemon App, Stack PERN.' 
                     information='Project Objectives Build an App using React, Redux, Node and Sequelize.'
                     rute='/project-pokemon'
+                    />
+                    <Card number='03' 
+                    img={img_dogs}
+                    badge='Pokemon App'
+                    title='Dog App, Stack PERN.' 
+                    information='Project Objectives Build an App using React, Redux, Node and Sequelize.'
                     />
                     <Button name='See all projects'/>
                 </div>

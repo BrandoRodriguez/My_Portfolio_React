@@ -84,7 +84,6 @@
 
 @media (min-width: 1024px) {
     .portfolio-information-section {
-        padding-top: 200px;
         background: radial-gradient(farthest-corner at top left, rgba(0, 194, 255, 0.3), transparent 30%), radial-gradient(farthest-corner at bottom center, rgba(255, 50, 50, 0.3), transparent 40%);
     }
 

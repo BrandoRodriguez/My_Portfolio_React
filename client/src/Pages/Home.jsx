@@ -36,6 +36,7 @@ function Home(props) {
                         check1='Web design'
                         check2='Web layout'
                         check3='Logic functionality'
+                        name='Demo'
                     />
             </section>
 

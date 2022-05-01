@@ -25,20 +25,18 @@
 .presentation-description {
     position: absolute;
     border-radius: 999PX;
-    width: 200px;
-    height: 80px;
-    left: auto;
     border: 1px solid rgba(92, 91, 91, .3);
     backdrop-filter: none;
     gap: 7px;
     top: 25%;
     background: rgb(21,21,21,.9);
+    padding: 7px 7px;
 }
 
-.presentation-description-img {
+/* .presentation-description-img {
     width: 40px;
     height: 42px;
-}
+} */
 
 .presentation-content h2 {
     font-size: 12px;
@@ -73,11 +71,9 @@
     
 
     .presentation-description {
-        width: 230px;
-        height: 90px;
+        padding: 10px 20px;
         background: none;
         backdrop-filter: blur(30px);
-        left: 18%;
         top: 29%;
     }
 
@@ -85,10 +81,10 @@
         font-size: 14px;
     }
 
-    .presentation-description-img {
+    /* .presentation-description-img {
         width: 43px;
         height: 45px;
-    }
+    } */
 
     .presentation-img img {
         width: auto;

@@ -4,9 +4,6 @@ import Arrow from './Arrow.jsx'
 import Tec from './Tec.jsx';
 import { Link } from 'react-router-dom';
 
-// import img_react from '../assets/images/img-tec/react.webp'
-// import img_node from '../assets/images/img-tec/node.webp'
-
 function Card(props) {
     return (
         <>

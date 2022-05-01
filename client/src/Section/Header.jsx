@@ -2,7 +2,7 @@ import './Header.css'
 import News from '../Components/News.jsx'
 import img_brandorodriguez from '../assets/images/brandorodriguez.webp'
 import img_hello from '../assets/images/hello.svg'
-import img_greeting from '../assets/images/greeting.png'
+import img_greeting from '../assets/images/greeting.webp'
 import Arrow from '../Components/Arrow.jsx'
 import { Link } from 'react-router-dom';
 

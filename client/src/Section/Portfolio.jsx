@@ -1,7 +1,7 @@
 import './Portfolio.css'
 import Card from '../Components/Card.jsx'
 import Button from '../Components/Button.jsx'
-// import img_ecomerce from '../assets/images/img-projects/ecomerce.png'
+import img_ecomerce from '../assets/images/img-projects/ecomerce.png'
 import img_dogs from '../assets/images/img-projects/dogs.webp'
 // import img_pokemon_mb from '../assets/images/img-projects/pokemon_mb.webp'
 import img_pokemon from '../assets/images/img-projects/pokemon.webp'
@@ -15,7 +15,7 @@ function Portfolio() {
             
                 <div class="container mx-auto w-full">              
                     <Card number='01' 
-                    img={img_pokemon}
+                    img={img_ecomerce}
                     badge='Pokemon App'
                     title='Pokemon App, Full-Stack.' 
                     information='Project Objectives Build an App using React, Redux, Node and Sequelize.'

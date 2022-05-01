@@ -64,7 +64,7 @@
     .portfolio-content {
         width: 40%;
         padding-left: 40px;
-        margin-top: 50px;
+        margin-top: 60px;
     }
     .img-area {
         width: 60%;
@@ -88,7 +88,7 @@
 }
 @media (min-width: 1280px) {
     .portfolio-content {
-        margin-top: 90px;
+        margin-top: 100px;
     }
     .portfolio-content-wrapper {
         padding-left: 60px;

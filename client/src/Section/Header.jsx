@@ -11,7 +11,7 @@ function Header() {
     return (
         <>
 
-            <div className="relative container mx-auto bottom">
+            <div className="relative container mx-auto">
                 <div className="presentation-walper flex items-center justify-content">
                 </div>
                 <div className="presentation-img flex items-center justify-content relative">

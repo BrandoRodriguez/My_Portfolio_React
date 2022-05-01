@@ -25,7 +25,6 @@ function Card(props) {
                     <Badge badge={props.badge} />
                     <h2 className="text-white text-xl">{props.title}</h2>
                     <div className="cnt-icon-tec flex justify-center items-center">
-                        <Tec tec='Stack PERN' />
                         <Tec tec='PostgreSQL' />
                         <Tec tec='Express' />
                         <Tec tec='React' />

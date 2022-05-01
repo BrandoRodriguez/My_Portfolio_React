@@ -20,7 +20,7 @@ function Header() {
                 <div className="presentation-description flex items-center justify-content">
                     <div className="presentation-description-img">
                         <img src={img_greeting} alt="Greeting - Brando Rodriguez - @brandorodriguez - brandorodriguez.com"
-                            width="43" height="43" />
+                            width="41" height="41" />
                     </div>
                     <div className="presentation-content">
                         <h2 className='text-white'>

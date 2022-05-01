@@ -32,6 +32,7 @@ function Portfolio() {
                     badge='Pokemon App'
                     title='Dog App, Stack PERN.' 
                     information='Project Objectives Build an App using React, Redux, Node and Sequelize.'
+                    rute='/project-pokemon'
                     />
                     <Button name='See all projects'/>
                 </div>

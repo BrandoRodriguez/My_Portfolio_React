@@ -48,7 +48,7 @@ function Header() {
                     </div>
                     <div className="news news-thwo flex items-center text-white">
                         <div>
-                            <Link to="/">
+                            <Link to="/project-pokemon">
                                 <Arrow />
                             </Link>
                         </div>
@@ -59,7 +59,7 @@ function Header() {
                     </div>
                     <div className="news news-three flex items-center text-white">
                         <div>
-                            <Link to="/">
+                            <Link to="/project-pokemon">
                                 <Arrow />
                             </Link>
                         </div>

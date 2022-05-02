@@ -207,13 +207,11 @@ p {
 
 .text-xx {
     font-size: 24px;
-    letter-spacing: .0em;
     line-height: 30px;
 }
 
 .text-xxx {
     font-size: 24px;
-    letter-spacing: .0em;
 }
 
 @media (min-width: 1024px) {

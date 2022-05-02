@@ -14,7 +14,7 @@ function PortfolioSlider() {
 
             <div className="portfolio-section-right-container mx-auto">
                 <div className="slide-container active">
-                    <CardSlider title='JQ Official Store Website Design.'/>
+                    <CardSlider title='Pokemon App, Stack PERN.'/>
                 </div>
                 <div className="button flex">
                     <span className="slick-arrow">

@@ -2,17 +2,17 @@ import './Home.css'
 import Header from '../Section/Header.jsx';
 import Portfolio from "../Section/Portfolio.jsx";
 import Information from "../Section/Information.jsx";
-// import PortfolioSlider from '../Section/PortfolioSlider';
-// import Testimonial from '../Section/Testimonial';
-// import Button from '../Components/Button.jsx';
-// import Skill from '../Section/Skill.jsx';
-// import Blog from '../Section/Blog.jsx';
-// import Resources from '../Section/Resources.jsx';
-// import Img_shape_rotate from '../assets/images/shape-rotate.svg';
+import PortfolioSlider from '../Section/PortfolioSlider';
+import Testimonial from '../Section/Testimonial';
+import Button from '../Components/Button.jsx';
+import Skill from '../Section/Skill.jsx';
+import Blog from '../Section/Blog.jsx';
+import Resources from '../Section/Resources.jsx';
+import Img_shape_rotate from '../assets/images/shape-rotate.svg';
 
-// const rotate = {
-//     transform: 'rotate(-180deg)'
-// };
+const rotate = {
+    transform: 'rotate(-180deg)'
+};
 
 function Home(props) {
     return (
@@ -41,13 +41,13 @@ function Home(props) {
                     />
             </section>
 
-            {/* <section className="portfolio-section-right">
+            <section className="portfolio-section-right">
                 <PortfolioSlider />
-            </section> */}
+            </section>
 
-            {/* <Testimonial /> */}
+            <Testimonial />
 
-            {/* <section className="skill-information-section">
+            <section className="skill-information-section">
                 <Information
                     title='Specialize and never stop learning.'
                     bgtitle='SKILL'
@@ -58,8 +58,8 @@ function Home(props) {
                     check3='Logic functionality'
                     name='See all projects'
                 />
-            </section> */}
-{/* 
+            </section>
+
             <section class="skill-section" >
                 <Skill />
                 <Button name='See all projects' />
@@ -77,6 +77,7 @@ function Home(props) {
                     check1='Web design'
                     check2='Web layout'
                     check3='Logic functionality'
+                    name='Demo'
                 />
             </section>
             <section class="blog-section">
@@ -92,12 +93,13 @@ function Home(props) {
                     check1='Web design'
                     check2='Web layout'
                     check3='Logic functionality'
+                    name='Demo'
                 />
             </section>
 
             <section class="resources-section">
                 <Resources/>
-            </section> */}
+            </section>
         </>
 
     );

@@ -3,8 +3,6 @@
 }
 
 .card-resource-primary {
-    border: 1px solid rgba(92, 91, 91, var(--tw-border-opacity));
-    --tw-border-opacity: .3;
     border-radius: 20px;
     margin-bottom: 15px;
     position: relative;
@@ -46,13 +44,13 @@
 
     .card-resource-primary {
         flex: 1 1 60%;
-        margin-right: 1.5rem;
         margin-bottom: 0;
     }
 
     .container-resources-articles {
         flex: 1 1 40%;
         height: 91px;
+        padding-left: 40px;
     }
 
 }

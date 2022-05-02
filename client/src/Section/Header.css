@@ -48,6 +48,25 @@
     margin-left: -1px;
 }
 
+.social-icon {
+    position: absolute;
+    right: 3px;
+    bottom: 0;
+    top: 60px;
+}
+
+.social-icon li a {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: .7;
+}
+
 @media (min-width: 1024px) {
     .presentation-section {
         padding-top: 100px;
@@ -75,6 +94,7 @@
         backdrop-filter: blur(30px);
         top: 29%;
         gap: 10px;
+        left: 18%;
     }
 
     .presentation-content h2 {
@@ -89,6 +109,14 @@
     .presentation-img img {
         width: auto;
     }
+
+    .social-icon {
+        left: 4px;
+        top: 350px;
+        width: 40px;
+    }
+
+
 }
 
 @media (min-width: 1280px) {
@@ -99,6 +127,11 @@
     .presentation-section .section-title {
         left: 53px;
         bottom: -10px;
+    }
+
+    .social-icon {
+        left: 50px;
+        top: 250px;
     }
 }
 

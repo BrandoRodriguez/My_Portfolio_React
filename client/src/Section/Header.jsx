@@ -2,6 +2,9 @@ import './Header.css'
 import News from '../Components/News.jsx'
 import img_brandorodriguez from '../assets/images/brandorodriguez.webp'
 import img_hello from '../assets/images/hello.svg'
+import img_lk from '../assets/images/lk_brandorodriguez.svg'
+import img_in from '../assets/images/in_brandorodriguez.svg'
+import img_tw from '../assets/images/tw_brandorodriguez.svg'
 import img_greeting from '../assets/images/greeting.webp'
 import Arrow from '../Components/Arrow.jsx'
 import { Link } from 'react-router-dom';
@@ -15,7 +18,7 @@ function Header() {
                 <div className="presentation-walper flex items-center justify-content">
                     <img className="presentation-img flex mx-auto" src={img_brandorodriguez} alt="Img_Perfil - Brando Rodriguez - @brandorodriguez - brandorodriguez.com"
                         width="417" height="442"
-                    />                    
+                    />
                 </div>
                 <div className="presentation-description flex items-center justify-content">
                     <div className="presentation-description-img">
@@ -34,7 +37,6 @@ function Header() {
                     </div>
                 </div>
                 <>
-
                     <div className="news news-one flex items-center text-white">
                         <div>
                             <Link to="/project-pokemon">
@@ -72,6 +74,23 @@ function Header() {
                 </>
                 <h2 class="section-title top">projects</h2>
             </div>
+            <ul class="social-icon">
+                    <li class="twitter">
+                        <a href="brandorodriguez.com" title="Twitter">
+                            <img src={img_lk} alt=""/>
+                        </a>
+                    </li>
+                    <li class="linkedin">
+                        <a href="brandorodriguez.com" title="Linkedin">
+                            <img src={img_tw} alt=""/>
+                        </a>
+                    </li>
+                    <li class="instagram">
+                        <a href="brandorodriguez.com" title="Instagram">
+                            <img src={img_in} alt=""/>
+                        </a>
+                    </li>
+                </ul>
 
 
         </>

@@ -16,7 +16,7 @@
         display: block;
         height: calc(100% + 50px);
         width: 1px;
-        background: #F6F508;
+        background: #f43534;
         position: absolute;
         left: 0%;
         top: -35px;
@@ -45,7 +45,7 @@
         display: block;
         width: 14px;
         height: 14px;
-        background: #F6F508;
+        background: #f43534;
         border-radius: 100%;
         position: absolute;
         top: 32px;

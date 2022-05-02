@@ -1,8 +1,8 @@
 import './ImgSkill.css'
-import img_skill from '../assets/images/img-projects/henry.png'
+import img_skill from '../assets/images/img-projects/pokemonslider.webp'
 
 
-function Imgskill(props) {
+function Imgskill() {
     return (
         <>
             <img className="flex mx-auto skill-img" src={img_skill} alt="dk-hero" loading="lazy"/>

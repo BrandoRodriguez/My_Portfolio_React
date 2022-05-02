@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 .testimonial-section .author-img-wrapper:before {
-    content: url("../assets/images/curve.png");
+    content: url("../assets/images/curve.webp");
     position: absolute;
     bottom: -30px;
     left: 115px;

@@ -12,7 +12,8 @@ function CardBlog(props) {
             <div className="single-blog">
                 <div>
                     <a href="/" className="featured-img">
-                        <img src={img_blog} alt="Blog_Card_Img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" loading="lazy"/>
+                        <img src={img_blog} alt="Blog_Card_Img - Brando Rodriguez - @brandorodriguez - brandorodriguez.com" 
+                        loading="lazy" width="370" height="200" />
                     </a>
                     <div className="post-title">
                         <h3><a href="/">Our goal is making your working process faster and easier. </a></h3>

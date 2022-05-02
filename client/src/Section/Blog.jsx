@@ -1,6 +1,6 @@
 import './Blog.css'
 import CardBlog from "../Components/CardBlog.jsx";
-import img_ellipse from '../assets/images/ellipse.png'
+import img_ellipse from '../assets/images/ellipse.webp'
 import Arrow from '../Components/Arrow.jsx'
 import img_figma from '../assets/images/img-tec/figma.png'
 

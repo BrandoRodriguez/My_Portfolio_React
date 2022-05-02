@@ -22,7 +22,7 @@ body {
 }
 
 .background-noise::before {
-    background: url(./assets/images/bg.png);
+    background: url(./assets/images/bg.webp);
     content: "";
     height: 100%;
     width: 100%;

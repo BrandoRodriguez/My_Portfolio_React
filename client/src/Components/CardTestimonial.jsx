@@ -1,6 +1,6 @@
 import './CardTestimonial.css'
-import Quote from '../assets/images/quote.png'
-import Img_Testmonial from '../assets/images/testimonial.jpg'
+import Quote from '../assets/images/quote.webp'
+import Img_Testmonial from '../assets/images/testimonial.webp'
 
 function CardTestimonial(props) {
     return (

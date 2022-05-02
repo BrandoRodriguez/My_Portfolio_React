@@ -1,6 +1,6 @@
 import './CardResource.css'
 
-function CardResource(props) {
+function CardResource() {
     return (
         <>
 

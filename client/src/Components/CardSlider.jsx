@@ -1,7 +1,7 @@
 import CardSliderCss from './CardSlider.module.css'
 import Badge from './Badge.jsx'
 import Arrow from './Arrow.jsx'
-import img_ecomerce from '../assets/images/img-projects/pokemonslider.png'
+import img_ecomerce from '../assets/images/img-projects/pokemonslider.webp'
 import Tec from '../Components/Tec.jsx'
 
 

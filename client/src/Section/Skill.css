@@ -26,7 +26,7 @@
         width: 100%;
         max-width: calc(100% - 30px);
         background: linear-gradient(to left, rgba(0, 0, 0, 0) 1%, rgba(78, 78, 78, 0.50) 100%, rgba(78, 78, 78, 1) 10%);
-        padding: 15px 10px;
+        padding: 25px 30px;
         border-radius: 5px;
         position: relative;
         z-index: 1;
@@ -59,7 +59,7 @@
         display: block;
         width: 12px;
         height: 12px;
-        background: #F6F508;
+        background: #f43534;
         border-radius: 100%;
         position: absolute;
         left: -5px;

@@ -41,7 +41,7 @@ function Skill() {
                     />   
                     <CardSkill
                     abbreviation='Node'
-                    name='JavaScript runtime built on Chrome, V8 JavaScript engine.'
+                    name='JavaScript runtime built on Chrome'
                     description='Open source, cross-platform runtime environment for the server layer based on the JavaScript programming language.'
                     />                 
                 </div>

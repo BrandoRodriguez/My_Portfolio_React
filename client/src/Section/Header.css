@@ -33,10 +33,10 @@
     padding: 7px 7px;
 }
 
-/* .presentation-description-img {
-    width: 40px;
-    height: 42px;
-} */
+.presentation-description-img {
+    width: 38px;
+    height: 38px;
+}
 
 .presentation-content h2 {
     font-size: 12px;

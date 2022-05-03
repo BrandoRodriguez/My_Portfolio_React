@@ -22,7 +22,7 @@ function Skill() {
                     <CardSkill
                     abbreviation='JavaScript'
                     name='interpreted programming language.'
-                    description='Allows you to create dynamically updating content, control multimedia, animate images, etc.'
+                    description='Allows you to create dynamically updating content, control multimedia, etc.'
                     />     
                     <CardSkill
                     abbreviation='CSS'

@@ -6,8 +6,8 @@
     content: "";
     width: 260px;
     height: 260px;
-    /* background:linear-gradient(131.79deg, rgba(0, 194, 255, 0.5) 3.6%, rgba(67, 66, 77, 0.1) 48.41%, rgba(200, 0, 0, 0.5) 96.11%); */
-    background: rgb(255,255,255,.05) ;
+    background:linear-gradient(131.79deg, rgba(0, 194, 255, 0.5) 3.6%, rgba(67, 66, 77, 0.1) 48.41%, rgba(200, 0, 0, 0.5) 96.11%);
+    /* background: rgb(255,255,255,.05) ; */
     box-sizing: border-box;
     border-radius: 100%;
     margin-top: 40px;

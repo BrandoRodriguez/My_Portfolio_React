@@ -19,13 +19,13 @@ function Blog(props) {
                                     </span>
                                     Start selling online.
                                 </span>
-                                <h2 className="text-white text-xl">JQ Official Store Website Design.</h2>
+                                <h2 className="text-white text-xl">Pokemon App Stack PERN.</h2>
                                 <div className="flex justify-center items-center">
                                     <div className="icon-tec">
                                         <img className="img-icon-tec" src={img_figma} alt="Logo_Tec - Brando Rodriguez - @brandorodriguez - brandorodriguez.com"/>
                                     </div>
                                 </div>
-                                <p className="text-md">WooCommerce. Hub provides all the tools you need to start selling online. </p>
+                                <p className="text-md">Project Objectives Build an App using React, Redux, Node and Sequelize. </p>
                                 <a href="./header/index.html" className="text-white text-md gap flex items-center">See it in action.
                                     <Arrow/>
                                 </a>
